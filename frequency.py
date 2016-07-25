@@ -1,3 +1,7 @@
+# Compute the frequency of each word/term in tweets from a file of streamed twitter data
+# Runs from the command line: python frequency.py <tweet_file> 
+# Written in Python v. 2.7
+
 import os
 import json
 import sys
