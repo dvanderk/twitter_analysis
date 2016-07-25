@@ -1,3 +1,7 @@
+# Base code from University of Washington's Data Manupulation at Scale course on Coursera
+# Allows user to stream twitter data
+# Can be run from the command line: python twitterstream.py > output.json 
+
 import oauth2 as oauth
 import urllib2 as urllib
 

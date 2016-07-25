@@ -1,3 +1,7 @@
+# Prints each term found in the tweets in the given tweet file along with its sentiment
+# Uses both pre-determined sentiments from AFINN-111.txt (from University of Washington's Data Manipulation at Scale course on Coursera) as well as deriving the sentiment for terms that are not included using the surrounding terms' sentiments
+# Runs from the commands linepython term_sentiment.py AFINN-111.txt <twitter file>
+
 import sys
 import json
 
